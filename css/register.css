@@ -1,0 +1,249 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+img{
+	vertical-align: top;
+	border: 0;
+}
+li{
+	list-style: none;
+}
+input,textarea,select,button{
+	outline: none;
+	padding: 0;
+	margin: 0;
+	color: inherit;
+	font-size: inherit;
+	font-family: inherit;
+}
+textarea{
+	resize:none;
+}
+input[type="button"],input[type="reset"],input[type="submit"]{
+	cursor: pointer;
+}
+body{
+	font-family: "微软雅黑","宋体",Arial;
+	font-size: 12px;
+	color: #555;
+}
+a:hover{
+	color: #999 !important;
+}
+.sl{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.cl:after{
+	content: "";
+	display: block;
+	clear: both;
+	height:0;
+	overflow:hidden;
+	visibility: hidden;
+}
+.cl{
+	zoom: 1;
+}
+/*公共部分结束*/
+/*公共部分结束*/
+.yi {
+	background-color: #fff;
+}
+.content{
+	padding: 15px 0 5px 0;
+	width: 1008px;
+	margin: auto;
+}
+.logo{
+	margin-top: 6px;
+	width: 245px;
+	height: 40px;
+	float: left;
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+.friendlink{
+	padding: 45px 0 0;
+	float: right;
+}
+.footer{
+	background-color: #323334;
+}
+.register_box{
+    width: 100%;
+}
+.fullBtnBlue{
+	width: 358px;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #F51104;
+    background: #F51104;
+    border-radius: 6px;
+    font-size: 16px;
+    height: 44px;
+    line-height: 44px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+}
+.full_login{
+	width: 358px;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    border-radius: 6px;
+    font-size: 16px;
+    height: 44px;
+    line-height: 44px;
+    color: #7c7c7c !important;
+    margin-top: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+.phone,.password,.password1{
+	border: 1px solid #e6e6e6;
+    background: #fff;
+    box-shadow: none;
+    padding: 10px 10px 10px 100px;
+    height: 28px;
+    line-height: 28px;
+    width: 248px;
+    font-size: 14px;
+    font-family: "Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+    margin: 0;
+    color: #333333;
+    vertical-align: middle;
+    overflow: hidden;
+}
+.title{
+	position: absolute;
+    left: 5px;
+    top: 1px;
+    line-height: 48px;
+    width: 95px;
+    text-align: right;
+    color: #666;
+    font-size: 14px;
+    z-index: 1;
+}
+.normalInput{
+	z-index: 888;
+	position: relative;
+	margin-bottom: 15px;
+}
+.kapkey{
+	border: 1px solid #e6e6e6;
+    background: #fff;
+    box-shadow: none;
+    padding: 10px 10px 10px 100px;
+    height: 28px;
+    line-height: 28px;
+    width: 120px;
+    font-size: 14px;
+    font-family: "Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+    margin: 0;
+    color: #333333;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.normalInput{
+	z-index: 888;
+	position: relative;
+	margin-bottom: 15px;
+}
+.linkABlue{
+	background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    padding: 0 0;
+    height: 48px;
+    line-height: 48px;
+    vertical-align: middle;
+    text-align: center;
+    width: 110px;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 10px;
+    color: #333333;
+    text-decoration: none;
+    outline: none;
+    transition: color 0.2s ease 0s;
+}
+.linkABlue2{
+	border-bottom: 2px solid #dadada;
+    display: inline-block;
+    float: left;
+    font-family: Microsoft YaHei;
+    font-size: 16px;
+    font-weight: normal;
+    height: 26px;
+    line-height: 26px;
+    padding: 7px 0;
+    text-align: center;
+    width: 180px; 
+}
+.number{
+	margin-bottom: 20px;
+    overflow: hidden;
+}
+.tab-arrow{
+	    border-bottom: 2px solid #e4393c;
+    height: 7px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    width: 180px;
+    top: 33px;
+    z-index: 1;
+}
+.tab-arrow b{
+	    border-color: #fff #fff #e4393c;
+    border-style: dashed dashed solid;
+    border-width: 10px;
+    display: inline-block;
+    font-size: 0;
+    height: 0;
+    margin-top: -8px;
+    overflow: hidden;
+    width: 0;
+}
+.zuo_content{
+	position: relative;
+    margin-left: 110px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 380px;
+   float: left; 
+}
+.rememberField{
+	padding: 10px 0 5px 0;
+	position: relative;
+    z-index: 1;
+    margin-bottom: 15px;
+}
+.you_content{
+	float: left;
+	padding: 100px 0 0 0;
+}
+.regist_content{
+	border: 8px solid #f0f0f0;
+    min-height: 340px;
+    width: 992px;
+    height: 579px;
+    margin: 0 auto 50px auto;
+}
+.mainForm2{
+	display: none;
+}

@@ -1,0 +1,114 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+img{
+	vertical-align: top;
+	border: 0;
+}
+li{
+	list-style: none;
+}
+input,textarea,select,button{
+	outline: none;
+	padding: 0;
+	margin: 0;
+	color: inherit;
+	font-size: inherit;
+	font-family: inherit;
+}
+textarea{
+	resize:none;
+}
+input[type="button"],input[type="reset"],input[type="submit"]{
+	cursor: pointer;
+}
+body{
+	font-family: "微软雅黑","宋体",Arial;
+	font-size: 12px;
+	color: #555;
+}
+a:hover{
+	color: red !important;
+}
+.sl{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.cl:after{
+	content: "";
+	display: block;
+	clear: both;
+	height:0;
+	overflow:hidden;
+	visibility: hidden;
+}
+.cl{
+	zoom: 1;
+}
+.san {
+	background-color: #323334;
+}
+.guild{
+	width: 1008px;
+	margin: auto;
+	border-bottom: dotted 1px #fff;
+}
+.service{
+	padding-top: 20px;
+	background-color: #323334;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.service a{
+	float: left;
+	padding: 0 15px;
+	color: #fff;
+	height: 18px;
+	font-size: 14px;
+	line-height: 18px;
+}
+.dianhua{
+	height: 80px;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	padding: 12px 0;
+}
+.dianhua i{
+	width: 83px;
+	height: 72px;
+	background-color: #323334;
+	float: left;
+}
+.dianhua p{
+	float: left;
+	margin-left:20px ;
+	margin-top: 20px;
+	font-size: 40px;
+	color: #FFFFFF;
+}
+.si{
+	background-color: #323334;
+}
+.bottom{
+	width: 1008px;
+	margin: auto;
+	background-color: #323334;
+	text-align: center;
+	color: #999;
+}
+.bottom p{
+	height: 50px;
+	line-height: 50px;
+}
+.fDao{
+	padding: 20px 0;
+}

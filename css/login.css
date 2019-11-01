@@ -1,0 +1,287 @@
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+img{
+	vertical-align: top;
+	border: 0;
+}
+li{
+	list-style: none;
+}
+input,textarea,select,button{
+	outline: none;
+	padding: 0;
+	margin: 0;
+	color: inherit;
+	font-size: inherit;
+	font-family: inherit;
+}
+textarea{
+	resize:none;
+}
+input[type="button"],input[type="reset"],input[type="submit"]{
+	cursor: pointer;
+}
+body{
+	font-family: "微软雅黑","宋体",Arial;
+	font-size: 12px;
+	color: #555;
+}
+a:hover{
+	color: red !important;
+}
+.sl{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.cl:after{
+	content: "";
+	display: block;
+	clear: both;
+	height:0;
+	overflow:hidden;
+	visibility: hidden;
+}
+.cl{
+	zoom: 1;
+}
+/*公共部分结束*/
+/*公共部分结束*/
+.yi {
+	background-color: #fff;
+}
+.content{
+	padding: 15px 0 5px 0;
+	width: 1008px;
+	margin: auto;
+}
+.logo{
+	margin-top: 6px;
+	width: 245px;
+	height: 40px;
+	float: left;
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+.friendlink{
+	padding: 45px 0 0;
+	float: right;
+}
+.er{
+	background-color: #262626;
+}
+.container{
+	padding: 40px 0;
+	/*background-color: #333;*/
+	width: 1008px;
+	margin: auto;
+}
+.banner{
+	width: 600px;
+	height: 370px;
+	background-image: url(../img/1532339915165148771.jpg);
+	background-position: -470px -47px;
+	float: left;
+}
+.login{
+	width: 330px;
+	height: 354px;
+	background-color: #fff;
+	/*padding: 8px;*/
+	border: solid 8px #999;
+	float: right;
+}
+.san {
+	background-color: #323334;
+}
+.guild{
+	width: 1008px;
+	margin: auto;
+	border-bottom: dotted 1px #fff;
+}
+.service{
+	padding-top: 20px;
+	background-color: #323334;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.service a{
+	float: left;
+	padding: 0 15px;
+	color: #fff;
+	height: 18px;
+	font-size: 14px;
+	line-height: 18px;
+}
+.dianhua{
+	height: 80px;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	padding: 12px 0;
+}
+.dianhua i{
+	width: 83px;
+	height: 72px;
+	background-color: #323334;
+	float: left;
+}
+.dianhua p{
+	float: left;
+	margin-left:20px ;
+	margin-top: 20px;
+	font-size: 40px;
+	color: #FFFFFF;
+}
+.si{
+	background-color: #323334;
+}
+.bottom{
+	width: 1008px;
+	margin: auto;
+	background-color: #323334;
+	text-align: center;
+	color: #999;
+}
+.bottom p{
+	height: 50px;
+	line-height: 50px;
+}
+.fDao{
+	padding: 20px 0;
+}
+.login_tab{
+	height: 46px;
+	padding-left: 20px ;
+	border-bottom: 1px #d8d8d8 solid;
+	
+}
+.login{
+	position: relative;
+}
+.login_tab li {
+	height: 46px;
+	line-height: 46px;
+	float: left;
+	padding: 0 10px;
+    
+    font-size: 14px;
+}
+.login-mode{
+	color: #f60;
+	border-bottom: 1px solid #f60 !important;
+}
+.register{
+	position: absolute;
+	top: 13px;
+	right: 26px;
+}
+#firstPage{
+	padding: 10px 30px 10px 30px;
+}
+#firstPage p{
+	height: 28px;
+	line-height: 28px;;
+}
+.username{
+	width: 244px;
+	height: 35px;
+	border: 1px solid #999999;
+	padding: 0 12px;
+	margin-bottom: 10px;
+	display: block;
+}
+.userpwd{
+	width: 244px;
+	height: 35px;
+	padding: 0 12px;
+	border: 1px solid #999999;
+	margin-bottom: 10px;
+	display: block;
+}
+.wangJi{
+	float: right;
+	display: inline-block;
+}
+.btn{
+	width: 270px;
+	height: 38px;
+	background: #f70;
+	border: 0px;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 3px;
+	margin: 8px 0 15px 0;
+}
+.hezuo i{
+	margin-right:12px;
+	font-size:28px ; 
+	
+}
+#sendPage{
+	display: none;
+	padding: 10px 30px 10px 30px;
+}
+/*#sendPage p{
+	height: 28px;
+	line-height: 28px;
+}*/
+.jinggao{
+	height: 28px;
+	line-height: 28px;      ;
+}
+.usertel{
+	width: 244px;
+	height: 35px;
+	border: 1px solid #999999;
+	padding: 0 12px;
+	margin-bottom: 10px;
+	display: block;
+}
+.pwd{
+	width: 130px;
+	height: 35px;
+	padding: 0 12px;
+	border: 1px solid #999999;
+	margin-bottom: 10px;
+	display: block;
+	position: absolute;
+}
+.dongtai{
+	position: relative;
+	right: -167px;
+	top: 0;
+	width: 100px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	background-color: #f2f2f2;
+	border-radius: 4px;
+	border: 1px solid #999999;
+	display: block;
+}
+.btn{
+	width: 270px;
+	height: 38px;
+	background: #f70;
+	border: 0px;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 3px;
+	margin: 8px 0 15px 0;
+}
+.hezuo i{
+	margin-right:12px;
+	font-size:28px ; 
+	
+}
